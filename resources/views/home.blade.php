@@ -15,7 +15,7 @@
                     <hr>
                     <p class="card-text mb-3"><strong>Harga: </strong> Rp. {{number_format($barang->harga_barang)}}</p>
                     <p class="card-text"><strong>Stok: </strong> {{ $barang->stok_barang }}</p>
-                    <a href="#" class="btn btn-primary">Checkout</a>
+                    <a href="{{ url('checkout') }}/{{ $barang->kode_barang }}" class="btn btn-primary">Checkout</a>
                 </div>
             </div>
         </div>
