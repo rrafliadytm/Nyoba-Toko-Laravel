@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\models\barang;
+use App\Models\barang;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
