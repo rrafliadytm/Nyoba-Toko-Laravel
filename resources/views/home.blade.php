@@ -4,10 +4,10 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12 mb-4">
-            <h1>Kamu mau kemana? Silahkan pilih maskapai anda!</h1>
+            <h1 class="text-center">Mau Belanja Apa Hari Ini?</h1>
         </div>
         @foreach ($barang as $barang)
-        <div class="col-md-4">
+        <div class="col-md-3 mb-4">
             <div class="card" style="width: 18rem;">
                 <img src="{{ url('assets') }}/{{ $barang->gambar }}" class="card-img-top" alt="...">
                 <div class="card-body">
