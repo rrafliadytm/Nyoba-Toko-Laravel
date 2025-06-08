@@ -3,30 +3,30 @@
 @section('content')
 <div class="container">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="height: 500px; width: 100%; object-fit: contain;">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/assets/celana.jpeg" alt="First slide"> 
+                <img class="d-block w-100" src="/assets/banner.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/assets/baju.jpeg" alt="Second slide">
+                <img class="d-block w-100" src="/assets/banner1.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/assets/sepatu.jpg" alt="Third slide">
+                <img class="d-block w-100" src="/assets/banner2.jpg" alt="Third slide">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <span class="visually-hidden">Next</span>
         </button>
     </div>
 
     <div class="row justify-content-center">
         <div class="col-md-12 mb-4">
-            <h1 class="text-center">Mau Belanja Apa Hari Ini?</h1>
+            <h1 class="text-center mt-5">Mau Belanja Apa Hari Ini?</h1>
         </div>
         @foreach ($barang as $barang)
         <div class="col-md-3 mb-4">

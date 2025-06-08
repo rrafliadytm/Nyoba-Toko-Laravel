@@ -61,11 +61,11 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url('home') }}">{{ __('Home') }}</a>
+                                <a class="nav-link" href="{{ url('home') }}">{{ __('About') }}</a>
                             </li>
                             
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url('home') }}">{{ __('Home') }}</a>
+                                <a class="nav-link" href="{{ url('home') }}">{{ __('Contact') }}</a>
                             </li>
 
                             <li class="nav-item dropdown">
